@@ -1,20 +1,8 @@
 package Day1.part1
 
-object solution extends App{
-  import scala.io.Source._
-  import scala.util.matching.Regex
-  // 12 red cubes, 13 green cubes, and 14 blue cubes
-  val contents: Seq[Seq[String]] =fromFile("Solutions/src/main/scala/Day1/part1/data.txt").getLines().toSeq.map(_.split("[;,]").toSeq)
-  val pattern: Regex = """(\d+)""".r
+import Day1.Base
 
-  val keys = contents.map(_.head.split(':').head)
-  val values = contents.map(x => {
-    val top = x.head.split(':').tail
-    val bottom = x.tail
-    val comb = top ++ bottom
-    comb.toSeq
-  })
-  val gameToSetsMap = keys.zip(values).toMap
+object solution extends App with Base{
 
   val invalidGames = {
     keys diff keys.flatMap(key => {
