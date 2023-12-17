@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="root [file:/C:/Users/Samson%20Joseph/Desktop/AdventOfCode/test/]" external.linked.project.path="$MODULE_DIR$/../../test" external.root.project.path="$MODULE_DIR$/../../test" external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="root [file:/C:/Users/Samson%20Joseph/Desktop/AdventOfCode/Solutions/]" external.linked.project.path="$MODULE_DIR$/../../Solutions" external.root.project.path="$MODULE_DIR$/../../Solutions" external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
     <output url="file://$MODULE_DIR$/../../Solutions/target/scala-2.13/classes" />
     <output-test url="file://$MODULE_DIR$/../../Solutions/target/scala-2.13/test-classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../Solutions">
-      <sourceFolder url="file://$MODULE_DIR$/../../Solutions/src/main/Day1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Solutions/src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Solutions/src/test/scala" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Solutions/.bsp" />
       <excludeFolder url="file://$MODULE_DIR$/../../Solutions/target" />
     </content>
     <orderEntry type="inheritedJdk" />
