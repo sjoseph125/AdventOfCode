@@ -3,14 +3,14 @@
   <component name="ScalaSbtSettings">
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Day" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/test" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Day" />
-            <option value="$PROJECT_DIR$/Day/project" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/test/project" />
           </set>
         </option>
-        <option name="sbtVersion" value="1.9.7" />
+        <option name="sbtVersion" value="1.9.8" />
       </SbtProjectSettings>
     </option>
   </component>
