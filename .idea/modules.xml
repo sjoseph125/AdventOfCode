@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AdventOfCode.iml" filepath="$PROJECT_DIR$/.idea/AdventOfCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Solutions.iml" filepath="$PROJECT_DIR$/.idea/modules/Solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solutions/.idea/modules/Solutions-build.iml" filepath="$PROJECT_DIR$/Solutions/.idea/modules/Solutions-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adventofcode.iml" filepath="$PROJECT_DIR$/.idea/modules/adventofcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adventofcode-build.iml" filepath="$PROJECT_DIR$/.idea/modules/adventofcode-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/.idea/modules/test-build.iml" filepath="$PROJECT_DIR$/test/.idea/modules/test-build.iml" />
     </modules>
   </component>
