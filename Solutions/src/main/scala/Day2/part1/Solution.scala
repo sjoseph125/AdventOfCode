@@ -1,8 +1,8 @@
-package Day1.part1
+package Day2.part1
 
-import Day1.Base
+import Day2.Base
 
-object solution extends App with Base{
+object Solution extends App with Base{
 
   val invalidGames = {
     keys diff keys.flatMap(key => {

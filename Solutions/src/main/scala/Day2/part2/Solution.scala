@@ -1,8 +1,8 @@
-package Day1.part2
+package Day2.part2
 
-import Day1.Base
+import Day2.Base
 
-object solution extends App with Base{
+object Solution extends App with Base{
 
   val productSum: Int = {
     keys.flatMap(key => {
